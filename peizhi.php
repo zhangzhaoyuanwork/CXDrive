@@ -49,7 +49,7 @@ $BTfdlpl=100;//防盗链下载码发放频率，多少次切换一次下载码�
 //数据库配置
 $localhost="localhost";
 $batauser="changxiang";
-$batapassword="123456";
+$batapassword="changxiang";
 $bataname="changxiang";
 $lj=mysqli_connect($localhost,$batauser,$batapassword,$bataname);
 mysqli_query($lj, "set names utf8"); 
